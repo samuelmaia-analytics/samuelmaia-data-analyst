@@ -49,4 +49,4 @@ Python | SQL | Power BI | Pandas | NumPy | Scikit-learn | FastAPI | ETL Pipeline
 ## Connect
 
 LinkedIn  
-https://linkedin.com/in/samuelmaia-data-analyst
+https://www.linkedin.com/in/samuelmaia-analytics
