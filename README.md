@@ -2,6 +2,8 @@
 
 Senior Data Analyst | Revenue Intelligence | Advanced Analytics
 
+Language: [English](#samuel-maia) | [Portuguese (PT-BR)](#resumo-em-portugues-pt-br)
+
 I design analytics systems that transform raw data into strategic business decisions.
 
 My work focuses on building end-to-end analytics solutions that combine data engineering, advanced analytics, machine learning, and executive dashboards to support revenue growth and data-driven decision-making.
@@ -114,3 +116,20 @@ Business Intelligence
 
 LinkedIn  
 https://linkedin.com/in/samuelmaia-data-analyst
+
+---
+
+# Resumo em Portugues (PT-BR)
+
+Sou Senior Data Analyst com foco em Revenue Intelligence, analytics engineering e machine learning aplicado a decisao de negocio.
+
+Este portfolio apresenta projetos end-to-end de:
+
+- analytics de receita
+- predicao de churn
+- simulacao de cenarios
+- dashboards executivos
+- pipelines de dados e modelos de ML
+
+Projeto principal:  
+https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite
