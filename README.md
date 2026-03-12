@@ -1,52 +1,90 @@
 ﻿# Samuel Maia
 
+**Turning Data Into Revenue Decisions**
+
 **Senior Data Analyst | Revenue Intelligence | Advanced Analytics**
 
-Open to remote senior data analytics opportunities.
+[GitHub](https://github.com/samuelmaia-analytics) | [Flagship Project](https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite) | [LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics)
 
-Start Here: [Revenue Intelligence Platform Suite](https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite)
+<a id="english"></a>
+<a id="pt-br"></a>
 
-I build end-to-end analytics systems that turn raw data into strategic business decisions, with focus on revenue intelligence, machine learning, and executive visibility.
+`Language/Idioma:` [English](#english) | [Português (BR)](#pt-br)
 
 ---
 
-## Core Projects
+## English
 
-### 1. Revenue Intelligence Platform Suite
+I build end-to-end analytics systems that convert raw data into strategic business decisions.
+Focus areas: revenue intelligence, machine learning, and executive visibility.
+
+### Flagship Project
+
+#### Revenue Intelligence Platform Suite
 Integrated analytics ecosystem for revenue drivers, performance monitoring, scenario simulation, and executive dashboards.
 
-Repository  
-https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite
+Start here:
+https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite
 
-### 2. Revenue Intelligence Platform - End-to-End Analytics & ML System
+### Key Projects
+
+#### Revenue Intelligence Platform - End-to-End Analytics & ML System
 Enterprise-style analytics platform with pipelines, feature engineering, ML models, and FastAPI prediction service.
 
-Repository  
-https://github.com/samuelmaia-data-analyst/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System
+https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System
 
-### 3. Churn Prediction
+#### Churn Prediction
 Machine learning system for churn risk identification and retention decision support.
 
-Repository  
-https://github.com/samuelmaia-data-analyst/churn-prediction
+https://github.com/samuelmaia-analytics/churn-prediction
+
+### GitHub Analytics
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=samuelmaia-analytics&show_icons=true&hide_border=true&cache_seconds=86400)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmaia-analytics&layout=compact&hide_border=true&cache_seconds=86400)
+
+### Contact
+
+LinkedIn:
+https://www.linkedin.com/in/samuelmaia-analytics
+
+`Language/Idioma:` [English](#english) | [Português (BR)](#pt-br)
 
 ---
 
-## Tech Stack
+## Português (BR)
 
-Python | SQL | Power BI | Pandas | NumPy | Scikit-learn | FastAPI | ETL Pipelines | Business Intelligence
+Desenvolvo sistemas analíticos de ponta a ponta que transformam dados brutos em decisões estratégicas de negócio.
+Foco em revenue intelligence, machine learning e visibilidade executiva.
 
----
+### Projeto Flagship
 
-## GitHub Analytics
+#### Revenue Intelligence Platform Suite
+Ecossistema analítico integrado para drivers de receita, monitoramento de performance, simulação de cenários e dashboards executivos.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=samuelmaia-data-analyst&show_icons=true&hide_border=true&cache_seconds=86400)
+Comece por aqui:
+https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmaia-data-analyst&layout=compact&hide_border=true&cache_seconds=86400)
+### Projetos-chave
 
----
+#### Revenue Intelligence Platform - End-to-End Analytics & ML System
+Plataforma analítica em estilo enterprise com pipelines, feature engineering, modelos de ML e serviço de predição com FastAPI.
 
-## Connect
+https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System
 
-LinkedIn  
+#### Churn Prediction
+Sistema de machine learning para identificação de risco de churn e suporte a decisões de retenção.
+
+https://github.com/samuelmaia-analytics/churn-prediction
+
+### GitHub Analytics
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=samuelmaia-analytics&show_icons=true&hide_border=true&cache_seconds=86400)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmaia-analytics&layout=compact&hide_border=true&cache_seconds=86400)
+
+### Contato
+
+LinkedIn:
 https://www.linkedin.com/in/samuelmaia-analytics
