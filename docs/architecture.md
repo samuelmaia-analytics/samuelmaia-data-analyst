@@ -44,6 +44,7 @@ tests/      automated validation for the core platform scaffold
 - `core/change_drivers.py`: configurable materiality classification for executive change monitoring
 - `core/runtime_config.py`: sanitized runtime configuration summary for governance review
 - `core/governance_policy.py`: runtime policy checks for thresholds, auth, and GenAI readiness
+- `core/privacy_governance.py`: data inventory, retention, and LGPD-ready privacy baseline summary
 - `core/analytics_engineering.py`: dbt-like local compiler and SQL test runner over the SQLite warehouse
 - `core/repository_registry.py`: selective integration of local `tmp-*` repositories as reference assets
 - `contracts/v1/`: versioned JSON schema contracts for generated artifacts

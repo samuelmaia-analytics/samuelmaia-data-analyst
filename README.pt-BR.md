@@ -231,6 +231,7 @@ flowchart LR
 Exemplos de sinais de governança e qualidade presentes nos principais repositórios:
 
 - contratos de dados e validação de esquema
+- inventário de dados documentado, política de retenção e baseline de privacidade orientada à LGPD
 - estruturas explícitas de repositório e limites claros de responsabilidade
 - registros de decisão arquitetural
 - runbooks, guias de troubleshooting e release notes

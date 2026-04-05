@@ -9,7 +9,7 @@ from core.governance_policy import build_governance_policy_report
 def test_governance_policy_report_passes_for_default_settings() -> None:
     report = build_governance_policy_report(get_settings())
     assert report["status"] in {"ok", "warn"}
-    assert len(report["checks"]) == 3
+    assert len(report["checks"]) == 6
 
 
 def test_governance_policy_report_fails_on_threshold_order() -> None:

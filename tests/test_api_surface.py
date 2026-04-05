@@ -35,6 +35,7 @@ def test_api_metrics_and_repositories_surfaces() -> None:
     assert change_drivers_response.status_code == 200
     assert "headline" in metrics_response.json()
     assert "change_driver_thresholds" in runtime_config_response.json()
+    assert "data_governance" in runtime_config_response.json()
     assert "checks" in policy_checks_response.json()
     assert "models_built" in analytics_checks_response.json()
     assert "series" in history_response.json()

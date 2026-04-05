@@ -231,6 +231,7 @@ flowchart LR
 Examples of governance and quality signals present across the main repositories:
 
 - data contracts and schema validation
+- documented data inventory, retention policy, and LGPD-ready privacy baseline
 - explicit repository structures and ownership boundaries
 - architecture decision records
 - runbooks, troubleshooting guides, and release notes

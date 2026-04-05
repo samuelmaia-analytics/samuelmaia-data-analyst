@@ -6,6 +6,7 @@ from config.settings import get_settings
 from core.analytics_engineering import run_analytics_engineering_checks
 from core.governance_policy import build_governance_policy_report
 from core.pipeline import build_portfolio_snapshot
+from core.privacy_governance import load_data_governance_summary
 from core.runtime_config import build_runtime_config_summary
 
 
@@ -19,6 +20,7 @@ quality_report = snapshot["quality_report"]
 runtime_config = build_runtime_config_summary(settings)
 policy_report = build_governance_policy_report(settings)
 analytics_report = run_analytics_engineering_checks(settings)
+data_governance = load_data_governance_summary(settings.data_governance_path)
 
 col1, col2, col3 = st.columns(3)
 col1.metric("Total Checks", f"{quality_report['total_checks']}")
@@ -37,6 +39,14 @@ st.markdown(
     - Repository registry tracks local reference assets and their readiness
     """
 )
+
+st.subheader("Data Governance and LGPD")
+gov1, gov2, gov3 = st.columns(3)
+gov1.metric("Datasets in Inventory", f"{data_governance['datasets']}")
+gov2.metric("Contains Personal Data", "YES" if data_governance["contains_personal_data"] else "NO")
+gov3.metric("Minimum Retention", f"{data_governance['minimum_retention_days']} days")
+st.caption(data_governance["lgpd_positioning"].get("assessment", ""))
+st.dataframe(data_governance["inventory"], width="stretch", hide_index=True)
 
 st.subheader("Runtime Configuration")
 auth = runtime_config["auth"]

@@ -17,6 +17,7 @@ class Settings:
     genai_prompt_dir: Path
     semantic_metrics_path: Path
     quality_rules_path: Path
+    data_governance_path: Path
     genai_prompt_path: Path
     raw_portfolio_path: Path
     project_registry_path: Path
@@ -75,6 +76,7 @@ def get_settings() -> Settings:
         genai_prompt_dir=root / "config" / "prompts" / "genai",
         semantic_metrics_path=root / "config" / "semantic_metrics.json",
         quality_rules_path=root / "config" / "quality_rules.json",
+        data_governance_path=root / "config" / "data_governance.json",
         genai_prompt_path=root / "config" / "prompts" / "genai" / "narrative_kpi_insights.md",
         raw_portfolio_path=data_dir / "raw" / "portfolio_projects.csv",
         project_registry_path=root / "config" / "project_registry.json",

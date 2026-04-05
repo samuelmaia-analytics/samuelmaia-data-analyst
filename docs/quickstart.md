@@ -103,6 +103,11 @@ The current sanitized runtime configuration can be reviewed in:
 - Streamlit: `Governance and Quality`
 - API: `GET /governance/runtime-config`
 
+Data governance and LGPD baseline are documented in:
+
+- `config/data_governance.json`
+- `docs/governance_lgpd.md`
+
 Governance policy validation is also available in:
 
 - CLI: `python -m core.cli policy-checks`

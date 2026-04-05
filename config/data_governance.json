@@ -1,0 +1,33 @@
+{
+  "policy_version": "1.0",
+  "review_frequency": "quarterly",
+  "data_inventory": [
+    {
+      "dataset": "portfolio_projects",
+      "location": "data/raw/portfolio_projects.csv",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "contains_sensitive_personal_data": false,
+      "lgpd_applicability": "not_applicable_for_current_sample",
+      "lawful_basis": "not_applicable",
+      "retention_days": 365,
+      "owner": "samuelmaia-analytics",
+      "sharing_scope": "portfolio_internal_demo"
+    }
+  ],
+  "controls": {
+    "data_minimization": true,
+    "purpose_limitation": true,
+    "retention_policy_documented": true,
+    "contract_validation": true,
+    "access_control": "api_key_or_jwt",
+    "observability": true,
+    "incident_response_documented": true
+  },
+  "lgpd_positioning": {
+    "assessment": "The root scaffold uses operational and portfolio metadata only. No personal data is required in the current sample dataset, but LGPD-aligned controls are documented for future integrations.",
+    "data_subject_request_process": "Document before onboarding personal data.",
+    "cross_border_transfer": "not_configured",
+    "international_transfer_guardrail": "Do not enable external providers for personal data without contractual review."
+  }
+}
