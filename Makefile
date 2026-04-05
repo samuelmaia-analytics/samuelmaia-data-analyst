@@ -22,4 +22,4 @@ run-api:
 
 .PHONY: run-streamlit
 run-streamlit:
-	streamlit run app/streamlit_app.py
+	streamlit run streamlit_app.py

@@ -30,7 +30,6 @@ tests/      automated validation for the core platform scaffold
 
 - `streamlit_app.py`: canonical Streamlit entrypoint
 - `pages/`: canonical Streamlit multipage views
-- `app/streamlit_app.py`: compatibility wrapper for the legacy app path
 - `services/api/main.py`: FastAPI base with health, snapshot, metrics, and insights endpoints
 - `core/pipeline.py`: orchestrates the canonical snapshot build
 - `scripts/smoke_api.py`: executable API smoke validation
