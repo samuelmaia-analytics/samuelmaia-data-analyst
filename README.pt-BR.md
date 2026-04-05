@@ -12,13 +12,26 @@
 ## Resumo Executivo
 
 Eu construo sistemas analíticos que ajudam áreas de negócio a confiar nos dados, agir com mais velocidade e tomar decisões comerciais melhores.
-Este portfólio foi intencionalmente curado para refletir um nível de maturidade analítica alinhado a engenharia analítica orientada a produção, analytics de receita, qualidade de dados, aplicações de BI e entrega analítica voltada ao negócio.
+Este portfólio foi intencionalmente curado em torno de engenharia analítica orientada a produção, analytics de receita, qualidade de dados, aplicações de BI e entrega analítica voltada ao negócio.
 
 O foco não está em quantidade de projetos.
 Está em valor para decisão, clareza arquitetural, outputs governados e execução crível do dado bruto ao consumo executivo.
 
 Este repositório deve ser lido como hub premium de portfólio e também como uma base funcional de plataforma.
 Ele combina projetos principais com uma estrutura raiz em padrão corporativo que demonstra contratos, observabilidade, métricas semânticas, rascunhos assistidos por GenAI, controles de governança e uma camada de engenharia analítica inspirada em dbt.
+
+O sinal mais forte aqui não é amplitude.
+É o fato de que o modelo operacional está visível: caminhos de runtime, contratos, testes, disciplina de release, checagens de qualidade e superfícies executivas de consumo podem ser inspecionados em código e documentação.
+
+### Visão Executiva
+
+| Sinal | Evidência |
+|---|---|
+| Valor de negócio | Receita, retenção, padronização de KPIs e produtos analíticos orientados à decisão |
+| Arquitetura | Pipelines em camadas, artefatos governados, superfícies de API e aplicação |
+| Qualidade | Contratos, validação, smoke tests, workflows de CI e checagens de política |
+| Analytics engineering | Camadas em estilo dbt, consistência semântica, lógica de métricas e exports de warehouse |
+| Modelo operacional | Runbooks, caminhos reproduzíveis de runtime, observabilidade e disciplina de release |
 
 ## Proposta de Valor
 
@@ -46,7 +59,7 @@ Para potenciais clientes, ele mostra como trabalho de dados pode ser traduzido e
 | Entrega | Streamlit, FastAPI, warehouse em SQLite, SQL, modelos em estilo dbt e workflows de CI |
 | Governança | Contratos, revisão de configuração de execução, thresholds de materialidade, observabilidade e registro de repositórios |
 
-## Ativos Centrais do Portfólio
+## Projetos em Destaque
 
 ### Revenue Intelligence Platform Suite
 
@@ -247,6 +260,16 @@ Evidências de execução visíveis nos principais repositórios incluem:
 - release notes ligadas à evolução dos repositórios
 - estruturas de repositório que conectam claims documentais a código e testes
 
+### Checklist de Revisão
+
+| O que um revisor normalmente pergunta | Onde a evidência aparece |
+|---|---|
+| Existe um caminho canônico de runtime? | repositórios principais, runbooks, caminhos de CLI e `core/pipeline.py` na raiz |
+| Os outputs são governados? | contratos, validação de esquema, relatórios de qualidade e artefatos processados |
+| A entrega é testável? | workflows de CI, smoke tests, checagens de API e scripts de validação da aplicação |
+| A lógica de negócio está separada da apresentação? | arquitetura em camadas, aplicações baseadas em artefatos, camada semântica e exports de warehouse |
+| Isso se sustenta além de uma demo? | documentação, checagens de política, release notes, estrutura do repositório e reprodutibilidade local |
+
 ### Capacidades Atuais da Plataforma
 
 - dashboards executivos e endpoints protegidos de API
@@ -258,7 +281,7 @@ Evidências de execução visíveis nos principais repositórios incluem:
 
 ## Sinais Operacionais
 
-Trabalho analítico de nível sênior deve ser inspecionável não apenas na camada de modelagem, mas também na camada operacional.
+Trabalho analítico em alto nível de maturidade deve ser inspecionável não apenas na camada de modelagem, mas também na camada operacional.
 
 Sinais operacionais demonstrados ao longo do portfólio incluem:
 
@@ -268,6 +291,12 @@ Sinais operacionais demonstrados ao longo do portfólio incluem:
 - controles de qualidade explícitos e comandos de validação
 - disciplina de release e de mudança
 - reprodutibilidade local-first com caminhos de evolução voltados a contexto enterprise
+
+### O Que Isso Significa Na Revisão
+
+- revisores conseguem rastrear como o dado vira output sem depender do estado de notebooks
+- líderes conseguem ver onde governança e controles de entrega ficam no modelo operacional
+- clientes conseguem entender como a lógica analítica vira uma superfície de decisão, não apenas uma análise isolada
 
 ## Como Eu Gero Valor de Negócio
 
@@ -363,6 +392,12 @@ O que você deve conseguir encontrar rapidamente:
 - outputs governados
 - aplicações analíticas testadas
 - documentação que explica tanto a implementação quanto o modelo operacional
+
+O que este portfólio foi otimizado para demonstrar:
+
+- julgamento de analytics engineering, não apenas velocidade de implementação
+- entrega voltada ao negócio, não apenas correção técnica
+- manutenibilidade, governança e capacidade de revisão dentro de um escopo realista
 
 ## Links
 
