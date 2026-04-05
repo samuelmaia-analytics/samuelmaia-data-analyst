@@ -5,7 +5,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuelmaia-analytics)
 [![Revenue Platform](https://img.shields.io/badge/Demo-Revenue%20Platform-1F6FEB?logo=streamlit&logoColor=white)](https://revenue-intelligence-platform.streamlit.app/)
 [![Platform Suite](https://img.shields.io/badge/Demo-Platform%20Suite-0F766E?logo=streamlit&logoColor=white)](https://revenue-intelligence-platform-suite.streamlit.app/)
-[![Churn Prediction](https://img.shields.io/badge/Demo-Churn%20Prediction-B45309?logo=streamlit&logoColor=white)](https://telecom-churn-prediction-samuelmaiapro.streamlit.app/)
+[![Portfolio Platform](https://img.shields.io/badge/Platform-Portfolio%20Scaffold-7C3AED?logo=fastapi&logoColor=white)](./docs/architecture.md)
 
 `Language:` **English** | [Português (Brasil)](./README.pt-BR.md)
 
@@ -46,7 +46,7 @@ For potential clients, it shows how data work can be translated into revenue pro
 | Delivery | Streamlit, FastAPI, SQLite warehouse, SQL, dbt-like models, CI workflows |
 | Governance | Contracts, runtime config review, change-driver thresholds, observability, repository registry |
 
-## Featured Projects
+## Core Portfolio Assets
 
 ### Revenue Intelligence Platform Suite
 
@@ -67,20 +67,21 @@ Shows a production-minded batch analytics system with governed outputs, warehous
 - Repository: https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System
 - Demo: https://revenue-intelligence-platform.streamlit.app/
 
-### Churn Prediction
+### Analytics Portfolio Platform
 
-Business-facing churn analytics project structured around pipeline execution, prioritization logic, reporting artifacts, monitoring, and stakeholder usability.
+This repository now works as a product-grade portfolio platform, not only as an index page.
+It demonstrates an enterprise-style analytics scaffold with governed contracts, FastAPI and Streamlit delivery surfaces, semantic metrics, GenAI-assisted analytical drafts, observability, and a dbt-like analytics engineering layer.
 
-- Focus: customer retention, prioritization, scenario analysis, business actionability
-- Signals: layered pipeline, artifact-backed dashboard, API path, drift monitoring
-- Repository: https://github.com/samuelmaia-analytics/churn-prediction
-- Demo: https://telecom-churn-prediction-samuelmaiapro.streamlit.app/
+- Focus: portfolio operating model, analytics platform architecture, governance, semantic consistency
+- Signals: centralized config, runtime policy checks, SQLite warehouse, contracts, trend history, analytics-engineering validation
+- Repository: https://github.com/samuelmaia-analytics/samuelmaia-analytics
+- Entry points: `docs/architecture.md`, `docs/quickstart.md`, `dbt/README.md`
 
-### Selected Supporting Repositories
+### Supporting Portfolio Assets
 
+- `churn-prediction`: business-facing retention analytics with layered pipeline, dashboard, API path, and drift monitoring
 - `SAMUEL_MAIA_DDF_TECH_032026`: governed analytical publication, semantic marts, operational monitoring, multi-surface analytical consumption
 - `amazon-sales-analysis`: commercial analytics, discount leakage diagnostics, category prioritization, executive framing
-- `data-senior-analytics`: reproducible analytics delivery with quality controls, governance documentation, and dashboard outputs
 
 ## Enterprise Platform Scaffold
 
@@ -132,34 +133,44 @@ flowchart TB
     HUB[Portfolio Hub]
     HUB --> FLAGSHIP[Revenue Intelligence Platform Suite]
     HUB --> CORE1[Revenue Intelligence Platform]
-    HUB --> CORE2[Churn Prediction]
-    HUB --> CORE3[Governed Publishing Platform]
-    HUB --> CORE4[Amazon Sales Analysis]
+    HUB --> CORE2[Analytics Portfolio Platform]
+    HUB --> SUPPORT1[Churn Prediction]
+    HUB --> SUPPORT2[Governed Publishing Platform]
+    HUB --> SUPPORT3[Amazon Sales Analysis]
     FLAGSHIP --> GOV[Governance and Contracts]
     FLAGSHIP --> OBS[Observability]
     FLAGSHIP --> EXEC[Executive Apps]
     CORE1 --> AE[Analytics Engineering]
     CORE1 --> MLOPS[Batch ML and Serving]
-    CORE2 --> RET[Retention Prioritization]
-    CORE4 --> COMM[Commercial Analytics]
+    CORE2 --> PLATFORM[Platform Governance and Delivery]
+    SUPPORT1 --> RET[Retention Prioritization]
+    SUPPORT3 --> COMM[Commercial Analytics]
 ```
 
 ## Stack
 
-Primary technologies used across the portfolio:
+Primary technologies used in this repository:
 
 - Python
 - SQL
 - Streamlit
 - FastAPI
+- SQLite
+- Pydantic
+- jsonschema
+- GitHub Actions
+- pytest
+- Ruff
+
+Supporting portfolio technologies visible across selected repositories:
+
 - dbt
-- Pandera
+- Docker
 - scikit-learn
 - MLflow
 - Power BI
-- Docker
-- GitHub Actions
-- pytest, Ruff, Black, isort, mypy
+- Pandera
+- Black, isort, mypy
 
 ### Delivery Footprint
 
@@ -301,6 +312,7 @@ This GitHub is intentionally organized by priority, not by project count.
 ### Core Proofs
 
 - `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
+- `samuelmaia-analytics`
 - `churn-prediction`
 - `SAMUEL_MAIA_DDF_TECH_032026`
 - `amazon-sales-analysis`
@@ -333,7 +345,7 @@ If you are hiring for Analytics Engineer, Senior Data Analyst, Revenue Analytics
 
 1. `revenue-intelligence-platform-suite` for platform thinking and executive-facing delivery
 2. `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System` for the strongest standalone engineering proof
-3. `churn-prediction` for retention analytics, prioritization, and business actionability
+3. `samuelmaia-analytics` for platform scaffold, governance, and analytics engineering operating model
 
 What you should expect to find quickly:
 
