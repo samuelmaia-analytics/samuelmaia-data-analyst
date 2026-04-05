@@ -24,7 +24,7 @@ core/ai/service.py                        orchestration and per-use-case generat
 core/operational_context.py               freshness, lineage, and recent runtime signal extraction
 core/pipeline.py                          injects governed context and persists artifacts in the canonical snapshot
 services/api/main.py                      protected GenAI endpoint for downstream consumption
-app/pages/05_GenAI_Analytics_Assistant.py review surface for generated drafts
+pages/05_GenAI_Analytics_Assistant.py review surface for generated drafts
 ```
 
 ## Runtime Context Used By GenAI
