@@ -9,6 +9,21 @@
 
 `Language:` **English** | [Português (Brasil)](./README.pt-BR.md)
 
+## Navigation
+
+- [Executive Summary](#executive-summary)
+- [Value Proposition](#value-proposition)
+- [Featured Projects](#featured-projects)
+- [Technical Architecture](#technical-architecture)
+- [Stack](#stack)
+- [Governance and Data Quality](#governance-and-data-quality)
+- [CI/CD](#cicd)
+- [Proof of Execution](#proof-of-execution)
+- [How I Create Business Value](#how-i-create-business-value)
+- [Why This Portfolio Is Different](#why-this-portfolio-is-different)
+- [Roadmap](#roadmap)
+- [For Recruiters](#for-recruiters)
+
 ## Executive Summary
 
 I build analytics systems that help business teams trust data, act faster, and make better commercial decisions.
@@ -32,6 +47,12 @@ It is that the operating model is visible: runtime paths, contracts, tests, rele
 | Quality | Contracts, validation, smoke tests, CI workflows, and policy checks |
 | Analytics engineering | dbt-like layers, semantic consistency, metric logic, and warehouse exports |
 | Operating model | Runbooks, reproducible runtime paths, observability, and release discipline |
+
+### Reading Paths
+
+- Recruiter review: `Executive Summary` -> `Featured Projects` -> `Proof of Execution` -> `For Recruiters`
+- Leadership review: `Value Proposition` -> `Technical Architecture` -> `Governance and Data Quality` -> `How I Create Business Value`
+- Technical review: `Technical Architecture` -> `Stack` -> `Governance and Data Quality` -> `CI/CD` -> `Proof of Execution`
 
 ## Value Proposition
 

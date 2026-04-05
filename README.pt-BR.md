@@ -9,6 +9,21 @@
 
 `Idioma:` [English](./README.md) | **Português (Brasil)**
 
+## Navegação
+
+- [Resumo Executivo](#resumo-executivo)
+- [Proposta de Valor](#proposta-de-valor)
+- [Projetos em Destaque](#projetos-em-destaque)
+- [Arquitetura Técnica](#arquitetura-técnica)
+- [Stack](#stack)
+- [Governança e Qualidade de Dados](#governança-e-qualidade-de-dados)
+- [CI/CD](#cicd)
+- [Prova de Execução](#prova-de-execução)
+- [Como Eu Gero Valor de Negócio](#como-eu-gero-valor-de-negócio)
+- [Por Que Este Portfólio É Diferente](#por-que-este-portfólio-é-diferente)
+- [Roadmap](#roadmap)
+- [Para Recrutadores](#para-recrutadores)
+
 ## Resumo Executivo
 
 Eu construo sistemas analíticos que ajudam áreas de negócio a confiar nos dados, agir com mais velocidade e tomar decisões comerciais melhores.
@@ -32,6 +47,12 @@ O sinal mais forte aqui não é amplitude.
 | Qualidade | Contratos, validação, smoke tests, workflows de CI e checagens de política |
 | Analytics engineering | Camadas em estilo dbt, consistência semântica, lógica de métricas e exports de warehouse |
 | Modelo operacional | Runbooks, caminhos reproduzíveis de runtime, observabilidade e disciplina de release |
+
+### Trilhas de Leitura
+
+- Revisão de recrutamento: `Resumo Executivo` -> `Projetos em Destaque` -> `Prova de Execução` -> `Para Recrutadores`
+- Revisão de liderança: `Proposta de Valor` -> `Arquitetura Técnica` -> `Governança e Qualidade de Dados` -> `Como Eu Gero Valor de Negócio`
+- Revisão técnica: `Arquitetura Técnica` -> `Stack` -> `Governança e Qualidade de Dados` -> `CI/CD` -> `Prova de Execução`
 
 ## Proposta de Valor
 
