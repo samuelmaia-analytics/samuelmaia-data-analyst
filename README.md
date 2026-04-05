@@ -185,6 +185,15 @@ Supporting portfolio technologies visible across selected repositories:
 
 Governance is a visible part of the portfolio because analytical trust matters as much as modeling accuracy.
 
+```mermaid
+flowchart LR
+    A[Runtime Configuration] --> B[Policy Checks]
+    B --> C[Contracts and Quality Validation]
+    C --> D[Semantic Consistency]
+    D --> E[Observability and Change Drivers]
+    E --> F[Executive Consumption]
+```
+
 Examples of governance and quality signals present across the main repositories:
 
 - data contracts and schema validation

@@ -185,6 +185,15 @@ Tecnologias complementares visíveis em repositórios selecionados do portfólio
 
 Governança é uma parte visível do portfólio porque confiança analítica importa tanto quanto acurácia de modelo.
 
+```mermaid
+flowchart LR
+    A[Configuração de Execução] --> B[Checagens de Política]
+    B --> C[Contratos e Validação de Qualidade]
+    C --> D[Consistência Semântica]
+    D --> E[Observabilidade e Direcionadores de Mudança]
+    E --> F[Consumo Executivo]
+```
+
 Exemplos de sinais de governança e qualidade presentes nos principais repositórios:
 
 - contratos de dados e validação de esquema
