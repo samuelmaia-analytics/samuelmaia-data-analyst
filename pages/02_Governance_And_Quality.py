@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import streamlit as st
 
+from app.ui.components import render_bullet_card, render_hero_panel, render_info_card
 from config.settings import get_settings
 from core.catalog import load_business_glossary, load_dataset_catalog
 from core.analytics_engineering import run_analytics_engineering_checks
@@ -13,9 +14,6 @@ from core.runtime_config import build_runtime_config_summary
 
 settings = get_settings()
 
-st.title("Governance and Quality")
-st.caption("Operational governance, quality controls, and contract-aware portfolio evidence.")
-
 snapshot = build_portfolio_snapshot(settings)
 quality_report = snapshot["quality_report"]
 runtime_config = build_runtime_config_summary(settings)
@@ -24,6 +22,33 @@ analytics_report = run_analytics_engineering_checks(settings)
 data_governance = load_data_governance_summary(settings.data_governance_path)
 business_glossary = load_business_glossary(settings)
 dataset_catalog = load_dataset_catalog(settings)
+
+render_hero_panel(
+    "Governance and Quality",
+    "Operational governance, privacy baseline, metadata discipline, and analytics-engineering controls in one review surface.",
+    "Control Framework",
+    chips=[
+        f"Policy Status: {policy_report['status'].upper()}",
+        f"AE Status: {analytics_report['status'].upper()}",
+        f"Datasets: {data_governance['datasets']}",
+    ],
+)
+
+intro_left, intro_right = st.columns((1.0, 1.0))
+with intro_left:
+    render_info_card(
+        "Governance Position",
+        "The root scaffold uses contract validation, runtime checks, metadata inventory, and LGPD-aware documentation to make trust visible before consumption.",
+    )
+with intro_right:
+    render_bullet_card(
+        "Review Focus",
+        [
+            "Can stakeholders trust the generated artifact?",
+            "Is policy and privacy posture visible without exposing secrets?",
+            "Can analytical outputs be audited, explained, and validated downstream?",
+        ],
+    )
 
 col1, col2, col3 = st.columns(3)
 col1.metric("Total Checks", f"{quality_report['total_checks']}")

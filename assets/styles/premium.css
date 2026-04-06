@@ -4,6 +4,10 @@
   --sm-ink: #1f2933;
   --sm-accent: #0f766e;
   --sm-accent-soft: #d6f2ee;
+  --sm-accent-deep: #0b5d56;
+  --sm-muted: #5b6773;
+  --sm-border: #e7ddd0;
+  --sm-shadow: 0 14px 34px rgba(32, 48, 64, 0.08);
 }
 
 .stApp {
@@ -11,9 +15,15 @@
   color: var(--sm-ink);
 }
 
+[data-testid="stAppViewContainer"] > .main {
+  background:
+    radial-gradient(circle at top right, rgba(15, 118, 110, 0.08), transparent 24rem),
+    linear-gradient(180deg, var(--sm-bg) 0%, #fcfbf9 100%);
+}
+
 [data-testid="stMetric"] {
   background: var(--sm-panel);
-  border: 1px solid #e7ddd0;
+  border: 1px solid var(--sm-border);
   border-radius: 16px;
   padding: 12px;
   box-shadow: 0 8px 24px rgba(32, 48, 64, 0.06);
@@ -21,5 +31,78 @@
 
 h1, h2, h3 {
   letter-spacing: -0.02em;
+}
+
+.sm-hero {
+  padding: 1.4rem 1.5rem;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(15, 118, 110, 0.97), rgba(11, 93, 86, 0.92));
+  color: #f8fffd;
+  box-shadow: var(--sm-shadow);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-bottom: 1rem;
+}
+
+.sm-hero h1,
+.sm-hero h2,
+.sm-hero h3,
+.sm-hero p {
+  color: #f8fffd;
+  margin: 0;
+}
+
+.sm-hero .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  opacity: 0.78;
+  margin-bottom: 0.55rem;
+}
+
+.sm-hero .subtitle {
+  color: rgba(248, 255, 253, 0.82);
+  margin-top: 0.55rem;
+}
+
+.sm-card {
+  padding: 1rem 1.1rem;
+  border-radius: 20px;
+  background: rgba(255, 250, 244, 0.92);
+  border: 1px solid var(--sm-border);
+  box-shadow: var(--sm-shadow);
+  margin-bottom: 0.9rem;
+}
+
+.sm-card h4 {
+  margin: 0 0 0.35rem 0;
+  color: var(--sm-ink);
+}
+
+.sm-card p {
+  margin: 0;
+  color: var(--sm-muted);
+}
+
+.sm-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.7rem;
+}
+
+.sm-chip {
+  display: inline-block;
+  padding: 0.38rem 0.72rem;
+  border-radius: 999px;
+  background: var(--sm-accent-soft);
+  color: var(--sm-accent-deep);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.sm-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--sm-muted);
 }
 
