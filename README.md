@@ -1,441 +1,187 @@
-# Samuel Maia
+<a id="top"></a>
 
-**Premium portfolio for Analytics Engineering, revenue analytics, BI applications, and decision-ready data products**
+**English** | [Português (Brasil)](./README.pt-BR.md) | [Português (Portugal)](./README.pt-PT.md)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuelmaia-analytics)
-[![Revenue Platform](https://img.shields.io/badge/Demo-Revenue%20Platform-1F6FEB?logo=streamlit&logoColor=white)](https://revenue-intelligence-platform.streamlit.app/)
-[![Platform Suite](https://img.shields.io/badge/Demo-Platform%20Suite-0F766E?logo=streamlit&logoColor=white)](https://revenue-intelligence-platform-suite.streamlit.app/)
-[![Portfolio Platform](https://img.shields.io/badge/Platform-Portfolio%20Scaffold-7C3AED?logo=fastapi&logoColor=white)](./docs/architecture.md)
+# Samuel Maia | Data Analysis & Analytics Engineering
 
-`Language:` **English** | [Português (Brasil)](./README.pt-BR.md)
+I build business-facing analytics products that turn raw data into reliable decision assets across Data Analysis, Analytics Engineering, BI, and executive dashboards.
 
-## Navigation
+Based in Fortaleza, Brazil. Open to remote work, CLT opportunities, PJ contracts, full-time roles, long-term engagements, consulting projects, freelance work, and strategic advisory conversations.
 
-- [Executive Summary](#executive-summary)
-- [Value Proposition](#value-proposition)
-- [Featured Projects](#featured-projects)
-- [Technical Architecture](#technical-architecture)
-- [Stack](#stack)
-- [Governance and Data Quality](#governance-and-data-quality)
-- [CI/CD](#cicd)
-- [Proof of Execution](#proof-of-execution)
-- [How I Create Business Value](#how-i-create-business-value)
-- [Why This Portfolio Is Different](#why-this-portfolio-is-different)
-- [Roadmap](#roadmap)
-- [For Recruiters](#for-recruiters)
+## About
 
-## Executive Summary
+I am a data professional with 10+ years of experience across data analysis, automation, systems integration, and business-oriented analytical solutions.
 
-I build analytics systems that help business teams trust data, act faster, and make better commercial decisions.
-This portfolio is intentionally curated around production-minded analytics engineering, revenue analytics, data quality, BI applications, and business-facing analytical delivery.
+My work is end-to-end: data ingestion, ETL/ELT, analytical modeling, KPI design, dashboard development, testing, governance, and documentation with delivery discipline.
 
-The emphasis is not on project count.
-It is on decision value, architectural clarity, governed outputs, and credible execution from ingestion to executive consumption.
+[⬆ Back to top](#top)
 
-This repository should be read as a premium portfolio hub and a working platform scaffold.
-It combines flagship portfolio projects with a root-level enterprise-style analytics platform that demonstrates contracts, observability, semantic metrics, GenAI-assisted insight drafts, governance controls, and dbt-like analytics engineering structure.
+## What I Build / What I Solve
 
-The strongest signal is not breadth.
-It is that the operating model is visible: runtime paths, contracts, tests, release discipline, quality checks, and executive consumption surfaces are inspectable in code and documentation.
+- Decision-ready analytics for revenue, retention, and operational performance
+- Executive dashboards in Streamlit and Power BI
+- ETL/ELT pipelines with quality checks, traceability, and reproducible outputs
+- Business-facing analytical applications with strong documentation and governance
+- Metrics layers that connect technical outputs to business action
 
-### Executive Snapshot
+[⬆ Back to top](#top)
 
-| Signal | Evidence |
-|---|---|
-| Business value | Revenue, retention, KPI standardization, and decision-ready analytical products |
-| Architecture | Layered pipelines, governed artifacts, API and app delivery surfaces |
-| Quality | Contracts, validation, smoke tests, CI workflows, and policy checks |
-| Analytics engineering | dbt-like layers, semantic consistency, metric logic, and warehouse exports |
-| Operating model | Runbooks, reproducible runtime paths, observability, and release discipline |
+## Core Capabilities
 
-### Reading Paths
+- Data Analysis, Analytics Engineering, BI, KPI design, business metrics
+- Python, SQL, Pandas, NumPy, PySpark
+- Streamlit, Power BI, Plotly, Altair
+- DuckDB, SQLite, FastAPI, dbt
+- Machine Learning-oriented analytical workflows
+- Git, GitHub Actions, CI/CD, Pytest, Ruff
+- Data quality, governance, testing, traceability, technical documentation
 
-- Recruiter review: `Executive Summary` -> `Featured Projects` -> `Proof of Execution` -> `For Recruiters`
-- Leadership review: `Value Proposition` -> `Technical Architecture` -> `Governance and Data Quality` -> `How I Create Business Value`
-- Technical review: `Technical Architecture` -> `Stack` -> `Governance and Data Quality` -> `CI/CD` -> `Proof of Execution`
-
-## Value Proposition
-
-For recruiters, this portfolio shows a strong combination of analytics engineering discipline and business framing.
-
-For data leaders, it demonstrates how I structure analytical products with clear runtime ownership, reproducible outputs, contracts, observability, and downstream consumption paths.
-
-For potential clients, it shows how data work can be translated into revenue protection, retention prioritization, KPI standardization, and stakeholder-ready applications instead of isolated notebooks or disconnected dashboards.
-
-### Audience Lens
-
-| Audience | What this repository shows |
-|---|---|
-| Recruiters | A portfolio with maturity aligned across analytics engineering, BI, governance, and business-facing delivery |
-| Data leaders | A maintainable operating model with quality gates, contracts, semantic consistency, and delivery surfaces |
-| Potential clients | How analytics work can become a decision product with measurable business relevance |
-
-### Executive Signals
-
-| Area | Signal |
-|---|---|
-| Business value | Revenue, retention, KPI standardization, and executive decision support |
-| Architecture | Layered pipelines, contract-aware outputs, governed artifacts, reusable platform services |
-| Quality | Automated tests, smoke checks, data validation, and policy checks |
-| Delivery | Streamlit, FastAPI, SQLite warehouse, SQL, dbt-like models, CI workflows |
-| Governance | Contracts, runtime config review, change-driver thresholds, observability, repository registry |
+[⬆ Back to top](#top)
 
 ## Featured Projects
 
-### Revenue Intelligence Platform Suite
-
-Flagship portfolio proof for platform thinking, executive decision support, governance, observability, and integrated analytical modules.
-
-- Focus: revenue performance, retention exposure, KPI visibility, action prioritization
-- Signals: monorepo structure, shared contracts, executive app, release discipline
-- Repository: https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite
-- Demo: https://revenue-intelligence-platform-suite.streamlit.app/
-
-### Revenue Intelligence Platform - End-to-End Analytics & ML System
-
-The strongest standalone technical proof in the portfolio.
-Shows a production-minded batch analytics system with governed outputs, warehouse artifacts, API delivery, dbt consumption, smoke-tested UI, and operational documentation.
-
-- Focus: end-to-end analytics engineering, ML-assisted decision support, KPI modeling
-- Signals: one official runtime path, contracts, runbook, Docker, SQL, dbt, CI matrix
-- Repository: https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System
-- Demo: https://revenue-intelligence-platform.streamlit.app/
-
-### Analytics Portfolio Platform
-
-This repository now works as a product-grade portfolio platform, not only as an index page.
-It demonstrates an enterprise-style analytics scaffold with governed contracts, FastAPI and Streamlit delivery surfaces, semantic metrics, GenAI-assisted analytical drafts, observability, and a dbt-like analytics engineering layer.
-
-- Focus: portfolio operating model, analytics platform architecture, governance, semantic consistency
-- Signals: centralized config, runtime policy checks, SQLite warehouse, contracts, trend history, analytics-engineering validation
-- Repository: https://github.com/samuelmaia-analytics/samuelmaia-analytics
-- Entry points: `docs/architecture.md`, `docs/quickstart.md`, `dbt/README.md`
-
-### Supporting Portfolio Assets
-
-- `churn-prediction`: business-facing retention analytics with layered pipeline, dashboard, API path, and drift monitoring
-- `Governed-Analytics-Platform`: governed analytical publication, semantic marts, operational monitoring, multi-surface analytical consumption
-- `amazon-sales-analysis`: commercial analytics, discount leakage diagnostics, category prioritization, executive framing
-
-## Enterprise Platform Scaffold
-
-This repository now also includes a maintainable root-level platform scaffold designed around enterprise-style analytical product development.
-It introduces a clear separation between `app`, `core`, `services`, `config`, `data`, `docs`, `assets`, and `tests`, plus a working base for FastAPI, Streamlit, data quality, semantic metrics, GenAI insights, observability, and CI/CD.
-
-Start here:
-
-- [Architecture](./docs/architecture.md)
-- [Business Case](./docs/business-case.md)
-- [API](./docs/api.md)
-- [Metric Layer](./docs/metric-layer.md)
-- [Data Governance](./docs/data-governance.md)
-- [Data Quality](./docs/data-quality.md)
-- [Repository Structure](./docs/repository_structure.md)
-- [Quickstart](./docs/quickstart.md)
-- [Roadmap](./docs/roadmap.md)
-
-## Technical Architecture
-
-The portfolio is organized around analytical systems rather than isolated analyses.
-Across the main repositories, the recurring operating model is:
-
-```text
-source data -> ingestion -> validation -> transformation -> semantic/KPI layer
--> modeling or scoring -> governed artifacts -> dashboard/API/SQL consumption
-```
-
-```mermaid
-flowchart LR
-    A[Source Data] --> B[Ingestion]
-    B --> C[Validation and Quality Gates]
-    C --> D[Transformation Layers]
-    D --> E[Semantic and KPI Layer]
-    E --> F[Modeling or Scoring]
-    F --> G[Governed Artifacts]
-    G --> H[Dashboards]
-    G --> I[APIs]
-    G --> J[SQL and BI Consumption]
-```
-
-Core architectural patterns demonstrated across the portfolio:
-
-- layered data flows such as `raw -> bronze -> silver -> gold`
-- business logic separated from presentation surfaces
-- dashboards that consume generated artifacts instead of becoming a second source of truth
-- contract-aware outputs for reporting, processed exports, and downstream consumers
-- local-first reproducibility with clear upgrade paths toward warehouse and enterprise connectors
-- analytical products designed around business questions, not only technical implementation
-
-### Portfolio Architecture
-
-```mermaid
-flowchart TB
-    HUB[Portfolio Hub]
-    HUB --> FLAGSHIP[Revenue Intelligence Platform Suite]
-    HUB --> CORE1[Revenue Intelligence Platform]
-    HUB --> CORE2[Analytics Portfolio Platform]
-    HUB --> SUPPORT1[Churn Prediction]
-    HUB --> SUPPORT2[Governed Publishing Platform]
-    HUB --> SUPPORT3[Amazon Sales Analysis]
-    FLAGSHIP --> GOV[Governance and Contracts]
-    FLAGSHIP --> OBS[Observability]
-    FLAGSHIP --> EXEC[Executive Apps]
-    CORE1 --> AE[Analytics Engineering]
-    CORE1 --> MLOPS[Batch ML and Serving]
-    CORE2 --> PLATFORM[Platform Governance and Delivery]
-    SUPPORT1 --> RET[Retention Prioritization]
-    SUPPORT3 --> COMM[Commercial Analytics]
-```
-
-## Stack
-
-Primary technologies used in this repository:
-
-- Python
-- SQL
-- Streamlit
-- FastAPI
-- SQLite
-- Pydantic
-- jsonschema
-- GitHub Actions
-- pytest
-- Ruff
-
-Supporting portfolio technologies visible across selected repositories:
-
-- dbt
-- Docker
-- scikit-learn
-- MLflow
-- Power BI
-- Pandera
-- Black, isort, mypy
-
-### Delivery Footprint
-
-- Presentation: Streamlit multipage application
-- Service layer: FastAPI with protected endpoints
-- Warehouse: SQLite-backed local analytical surface
-- Transformation: SQL assets and dbt-like model structure
-- Quality: schema tests, SQL tests, contracts, smoke tests, policy checks
-- AI layer: provider-agnostic GenAI architecture with local fallback and OpenAI-compatible path
-
-## Governance and Data Quality
-
-Governance is a visible part of the portfolio because analytical trust matters as much as modeling accuracy.
-
-```mermaid
-flowchart LR
-    A[Runtime Configuration] --> B[Policy Checks]
-    B --> C[Contracts and Quality Validation]
-    C --> D[Semantic Consistency]
-    D --> E[Observability and Change Drivers]
-    E --> F[Executive Consumption]
-```
-
-Examples of governance and quality signals present across the main repositories:
-
-- data contracts and schema validation
-- documented data inventory, retention policy, and LGPD-ready privacy baseline
-- explicit repository structures and ownership boundaries
-- architecture decision records
-- runbooks, troubleshooting guides, and release notes
-- quality reports and governed processed artifacts
-- compatibility and deprecation discipline where legacy paths exist
-- issue templates, PR templates, CODEOWNERS, and contribution standards
-
-### Analytics Engineering Signals
-
-- `raw`, `staging`, `intermediate`, and `marts` layers under [`dbt/`](./dbt)
-- source definitions, schema tests, SQL data tests, and metric layer
-- business logic and lineage-oriented documentation
-- local dbt-like validation runner over the SQLite warehouse
-- semantic consistency between KPI definitions, marts, contracts, and downstream surfaces
-
-## CI/CD
-
-The strongest repositories go beyond basic unit tests.
-They use CI/CD as evidence that the work is reproducible, reviewable, and operationally coherent.
-
-Signals already demonstrated in the portfolio include:
-
-- linting, formatting, type checking, and automated tests
-- smoke testing for Streamlit apps and API surfaces
-- build validation for packages and containers
-- downstream SQL and dbt validation
-- repository-governance and operational-asset checks
-- release notes and publication workflows
-
-```mermaid
-flowchart LR
-    A[Code and Documentation] --> B[Quality Gates]
-    B --> C[Contracts and Validation]
-    C --> D[CI Workflows]
-    D --> E[Build and Release Discipline]
-    E --> F[Demo, App, or Downstream Consumption]
-```
-
-## Proof of Execution
+### 1) Revenue Intelligence Platform Suite  
+**Subtitle:** Executive analytics platform for revenue-risk prioritization and portfolio-level delivery maturity.
 
-This portfolio is designed to show implemented capability, not only intended direction.
-
-Execution evidence visible across the main repositories includes:
-
-- live public demos
-- generated artifacts and governed exports
-- smoke-tested dashboards and APIs
-- release notes tied to repository evolution
-- repository structures that map documentation claims to code and tests
-
-### Reviewer Checklist
+- Integrates analytical modules into a unified decision surface
+- Combines prioritization logic with governance and observability
+- Demonstrates quality controls, release discipline, and business framing
 
-| What a reviewer usually asks | Where the evidence is visible |
-|---|---|
-| Is there a canonical runtime path? | flagship repositories, runbooks, CLI paths, and root `core/pipeline.py` |
-| Are outputs governed? | contracts, schema validation, quality reports, and processed artifacts |
-| Is delivery testable? | CI workflows, smoke tests, API checks, and app validation scripts |
-| Is business logic separated from presentation? | layered architecture, artifact-backed apps, semantic layer, and warehouse exports |
-| Is this maintainable beyond a demo? | docs, policy checks, release notes, repository structure, and local reproducibility |
+Repository: https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite  
+Live demo: https://revenue-intelligence-platform-suite.streamlit.app/  
+Why it matters: shows platform thinking, not isolated analytics assets.
 
-### Current Platform Capabilities
+---
 
-- executive dashboards and protected API endpoints
-- change-driver monitoring with configurable materiality thresholds
-- runtime configuration review and governance policy checks
-- historical metric, domain, and project trend tracking
-- GenAI-assisted drafts for KPI narrative, glossary, anomaly explanation, and executive summary
-- dbt-like analytics engineering layer with documented model flow
+### 2) Revenue Intelligence Platform (End-to-End Analytics + ML)  
+**Subtitle:** Production-minded analytics and ML system with governed outputs and multi-surface consumption.
 
-## Operational Signals
+- Canonical pipeline with reproducible outputs
+- Dashboard, API, and SQL/dbt paths aligned to the same data truth
+- Strong engineering signals through tests, CI, and operational artifacts
 
-Analytical work at a high level of maturity should be inspectable not only from the modeling layer, but from the operating layer.
+Repository: https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System  
+Live demo: https://revenue-intelligence-platform.streamlit.app/  
+Why it matters: balances analytical depth and delivery reliability.
 
-Operational signals demonstrated across the portfolio include:
+---
 
-- canonical runtime paths
-- documented environments and setup flows
-- runbooks, troubleshooting guides, and incident-style documentation
-- explicit quality gates and validation commands
-- release and change discipline
-- local-first reproducibility with enterprise-oriented upgrade paths
+### 3) Governed Analytics Platform  
+**Subtitle:** Governed analytical publication with semantic assets and executive consumption surfaces.
 
-### What This Means In Review
+- Formal separation between internal analytics and published layer
+- Quality controls, governance checks, and operational monitoring
+- Executive-facing consumption through Streamlit and BI context
 
-- reviewers can trace how data becomes an output without depending on notebook state
-- leaders can see where governance and delivery controls sit in the operating model
-- clients can see how analytical logic turns into a decision surface rather than an isolated analysis
+Repository: https://github.com/samuelmaia-analytics/Governed-Analytics-Platform  
+Live demo (publicly listed in repository materials): https://olist-governed-analytics-platform.streamlit.app/  
+Why it matters: demonstrates governance-by-design in analytics delivery.
 
-## How I Create Business Value
+---
 
-My work is designed to answer practical business questions such as:
+### 4) Churn Prediction  
+**Subtitle:** Retention analytics product with scoring, prioritization, and execution-oriented outputs.
 
-- Where is revenue at risk and what should the business act on first?
-- Which customers, channels, categories, or segments deserve prioritization?
-- How should KPI logic remain stable across pipelines, dashboards, and executive reviews?
-- How do governance, quality controls, and CI/CD improve confidence in analytical outputs?
+Repository: https://github.com/samuelmaia-analytics/churn-prediction  
+Why it matters: translates ML into business prioritization.
 
-Typical value delivered through these systems:
+---
 
-- revenue protection through prioritization logic
-- retention visibility through customer risk segmentation
-- faster decision cycles through artifact-backed dashboards and KPI layers
-- improved analytical credibility through governed outputs and reproducible workflows
-- cleaner stakeholder handoff through documentation, contracts, and operational assets
+### 5) Amazon Sales Analysis  
+**Subtitle:** Commercial analytics platform for sales diagnostics and opportunity prioritization.
 
-```mermaid
-flowchart LR
-    A[Business Question] --> B[Data Pipeline]
-    B --> C[KPI and Decision Logic]
-    C --> D[Governed Output]
-    D --> E[Dashboard or API]
-    E --> F[Stakeholder Action]
-    F --> G[Revenue Protection or Efficiency Gain]
-```
+Repository: https://github.com/samuelmaia-analytics/amazon-sales-analysis  
+Why it matters: links commercial analytics to decision-making.
 
-## Why This Portfolio Is Different
+---
 
-Most public data portfolios optimize for model variety or dashboard count.
-This one is designed to show how analytical work behaves when treated like a real product surface.
+### 6) Data Senior Analytics  
+**Subtitle:** Decision-focused analytics app with curated pipeline and executive readability.
 
-What makes it different:
+Repository: https://github.com/samuelmaia-analytics/data-senior-analytics  
+Live demo: https://data-analytics-sr.streamlit.app  
+Why it matters: strong business-facing dashboard and analytical product framing.
 
-- stronger emphasis on business framing than on isolated technical tricks
-- architectural consistency across projects
-- governance and operating signals that are usually missing in portfolios
-- analytical outputs tied to stakeholder decisions
-- a clear bridge between analytics engineering, BI, data quality, and product thinking
-- a visible platform scaffold that makes the operating model inspectable at repository level
+---
 
-## Portfolio Structure
+### 7) Analise Vendas Python  
+**Subtitle:** Sales analytics data platform with reproducible batch flow and KPI reporting.
 
-This GitHub is intentionally organized by priority, not by project count.
+Repository: https://github.com/samuelmaia-analytics/analise-vendas-python  
+Why it matters: consistent Python + SQL analytics engineering signal.
 
-### Flagship
+[⬆ Back to top](#top)
 
-- `revenue-intelligence-platform-suite`
+## Live Demos (Publicly Confirmed)
 
-### Core Proofs
+- Revenue Intelligence Platform Suite: https://revenue-intelligence-platform-suite.streamlit.app/
+- Revenue Intelligence Platform: https://revenue-intelligence-platform.streamlit.app/
+- Governed Analytics Platform: https://olist-governed-analytics-platform.streamlit.app/
+- Data Senior Analytics: https://data-analytics-sr.streamlit.app
 
-- `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
-- `samuelmaia-analytics`
-- `churn-prediction`
-- `Governed-Analytics-Platform`
-- `amazon-sales-analysis`
+[⬆ Back to top](#top)
 
-### Supporting Depth
+## Tools and Technologies
 
-- `data-senior-analytics`
-- `analise-vendas-python`
+Python, SQL, Pandas, NumPy, PySpark, DuckDB, SQLite, Streamlit, Power BI, Plotly, Altair, FastAPI, dbt, Git, GitHub Actions, CI/CD, Pytest, Ruff, and ML-oriented analytical workflows.
 
-Recommended supporting documents:
+[⬆ Back to top](#top)
 
-- [Project Index](./docs/project_index.md)
-- [Portfolio Strategy](./docs/portfolio_strategy.md)
-- [GitHub Positioning](./docs/github_positioning.md)
-- [GitHub Execution Pack](./docs/github_execution_pack.md)
+## Governance, Quality and Trust
 
-## Roadmap
+- Data quality validation and reproducibility controls
+- Structured testing and CI reliability checks
+- Traceability through artifacts, manifests, and documented runtime paths
+- Documentation-first approach for maintainability and team handoff
 
-Current portfolio modernization priorities:
+[⬆ Back to top](#top)
 
-1. Keep strengthening the flagship and core repositories as the primary hiring surface.
-2. Reduce narrative noise and keep only repositories that reinforce the same maturity thesis.
-3. Continue improving release evidence, operational proofs, and downstream validation depth.
-4. Increase enterprise readiness signals where they remain local-first today.
-5. Keep English-first documentation and recruiter-facing positioning consistently polished.
+## Privacy and LGPD Awareness
 
-## For Recruiters
+I apply privacy-aware analytical design with data minimization, controlled exposure, and governance boundaries documented throughout delivery workflows.
 
-If you are hiring for Analytics Engineer, Senior Data Analyst, Revenue Analytics, BI, or business-facing data product roles, start here:
+LGPD awareness is treated as part of product quality and trust.
 
-1. `revenue-intelligence-platform-suite` for platform thinking and executive-facing delivery
-2. `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System` for the strongest standalone engineering proof
-3. `samuelmaia-analytics` for platform scaffold, governance, and analytics engineering operating model
+[⬆ Back to top](#top)
 
-What you should expect to find quickly:
+## Delivery, Automation and CI/CD
 
-- clear business context
-- layered architecture
-- governed outputs
-- tested analytical applications
-- documentation that explains both implementation and operating model
+I build analytics with production-minded routines: linting, tests, CI/CD, versioned changes, and operational runbooks.
 
-What this portfolio is optimized to demonstrate:
+The goal is predictable delivery, maintainability, and reliable business consumption.
 
-- analytics engineering judgment, not only implementation speed
-- business-facing delivery, not only technical correctness
-- maintainability, governance, and reviewability under realistic scope constraints
+[⬆ Back to top](#top)
 
-## Links
+## Current Focus and Availability
 
-- GitHub: https://github.com/samuelmaia-analytics
-- LinkedIn: https://www.linkedin.com/in/samuelmaia-analytics
-- Revenue Intelligence Platform Demo: https://revenue-intelligence-platform.streamlit.app/
-- Revenue Intelligence Platform Suite Demo: https://revenue-intelligence-platform-suite.streamlit.app/
-- Churn Prediction Demo: https://telecom-churn-prediction-samuelmaiapro.streamlit.app/
-- Portfolio Demo: https://samuelmaia-032026.streamlit.app/
+Current focus:
+- Analytics Engineering and decision-ready BI
+- Governance and quality-centered analytics delivery
+- Practical cloud upskilling for production-aware analytics workflows
 
-## Contact
+Availability:
+- Remote work
+- CLT
+- PJ
+- Full-time
+- Long-term contracts
+- Consulting and freelance projects
 
-If you are evaluating candidates or partners for analytics engineering, business-facing analytics, revenue analytics, or data product delivery, this repository is the best entry point into the portfolio.
+[⬆ Back to top](#top)
+
+## Education and Current Learning
+
+- Continuous professional development in analytics engineering and business analytics
+- AWS Cloud Practitioner (in progress), expected completion in **June 2026**
+- Cloud learning focused on secure environment interaction, infrastructure awareness, and practical analytics delivery
+
+[⬆ Back to top](#top)
+
+## Contact / Opportunities
+
+GitHub: https://github.com/samuelmaia-analytics  
+LinkedIn: https://www.linkedin.com/in/samuelmaia-analytics
+
+If you are hiring for Data Analysis, Analytics Engineering, BI, or business-facing data products, I am open to conversation.
+
+[⬆ Back to top](#top)

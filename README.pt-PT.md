@@ -1,28 +1,28 @@
 <a id="top"></a>
 
-[English](./README.md) | **Português (Brasil)** | [Português (Portugal)](./README.pt-PT.md)
+[English](./README.md) | [Português (Brasil)](./README.pt-BR.md) | **Português (Portugal)**
 
 # Samuel Maia | Análise de Dados e Analytics Engineering
 
-Construo produtos analíticos orientados ao negócio que transformam dados brutos em ativos confiáveis para decisão, com foco em Análise de Dados, Analytics Engineering, BI e dashboards executivos.
+Desenvolvo produtos analíticos orientados ao negócio que transformam dados brutos em ativos fiáveis para decisão, com foco em Análise de Dados, Analytics Engineering, BI e dashboards executivos.
 
-Baseado em Fortaleza, Brasil. Aberto a trabalho remoto, oportunidades CLT, contratos PJ, posições full-time, contratos de longo prazo, consultoria, freelance e advisory estratégico.
+Baseado em Fortaleza, Brasil. Disponível para trabalho remoto, oportunidades CLT, contratos PJ, funções full-time, contratos de longo prazo, consultoria, freelance e advisory estratégico.
 
 ## Sobre
 
-Sou profissional de dados com 10+ anos de experiência em análise de dados, automação, integração de sistemas e soluções analíticas orientadas ao negócio.
+Sou profissional de dados com mais de 10 anos de experiência em análise de dados, automação, integração de sistemas e soluções analíticas orientadas ao negócio.
 
-Atuo de ponta a ponta: ingestão, ETL/ELT, modelagem analítica, desenho de KPIs, dashboards, testes, governança e documentação com disciplina de entrega.
+Trabalho de ponta a ponta: ingestão, ETL/ELT, modelação analítica, desenho de KPI, dashboards, testes, governação e documentação com disciplina de entrega.
 
 [⬆ Voltar ao topo](#top)
 
-## O que eu construo / o que eu resolvo
+## O que construo / que problemas resolvo
 
-- Analytics pronto para decisão em receita, retenção e performance operacional
+- Analytics pronto para decisão em receita, retenção e desempenho operacional
 - Dashboards executivos em Streamlit e Power BI
-- Pipelines ETL/ELT com qualidade, rastreabilidade e reprodutibilidade
-- Aplicações analíticas orientadas ao negócio com documentação forte
-- Estruturas de métricas que conectam dados à ação comercial
+- Pipelines ETL/ELT com qualidade, rastreabilidade e outputs reproduzíveis
+- Aplicações analíticas orientadas ao negócio com documentação consistente
+- Estruturas de métricas que ligam dados a ação
 
 [⬆ Voltar ao topo](#top)
 
@@ -32,9 +32,9 @@ Atuo de ponta a ponta: ingestão, ETL/ELT, modelagem analítica, desenho de KPIs
 - Python, SQL, Pandas, NumPy, PySpark
 - Streamlit, Power BI, Plotly, Altair
 - DuckDB, SQLite, FastAPI, dbt
-- Workflows analíticos com foco em Machine Learning
+- Workflows analíticos orientados a Machine Learning
 - Git, GitHub Actions, CI/CD, Pytest, Ruff
-- Qualidade de dados, governança, testes, rastreabilidade e documentação técnica
+- Qualidade de dados, governação, testes, rastreabilidade e documentação técnica
 
 [⬆ Voltar ao topo](#top)
 
@@ -45,16 +45,16 @@ Atuo de ponta a ponta: ingestão, ETL/ELT, modelagem analítica, desenho de KPIs
 
 Repositório: https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite  
 Demo: https://revenue-intelligence-platform-suite.streamlit.app/  
-Por que importa: evidencia visão de plataforma e governança aplicada.
+Porque é relevante: demonstra visão de plataforma com governação aplicada.
 
 ---
 
 ### 2) Revenue Intelligence Platform (End-to-End Analytics + ML)  
-**Subtítulo:** Sistema analítico e de ML com pipeline canônico, saídas governadas e consumo em múltiplas superfícies.
+**Subtítulo:** Sistema analítico e de ML com pipeline canónico, outputs governados e consumo multi-superfície.
 
 Repositório: https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System  
 Demo: https://revenue-intelligence-platform.streamlit.app/  
-Por que importa: combina profundidade analítica com confiabilidade de entrega.
+Porque é relevante: combina profundidade analítica com fiabilidade de entrega.
 
 ---
 
@@ -63,7 +63,7 @@ Por que importa: combina profundidade analítica com confiabilidade de entrega.
 
 Repositório: https://github.com/samuelmaia-analytics/Governed-Analytics-Platform  
 Demo (listada em materiais públicos do repositório): https://olist-governed-analytics-platform.streamlit.app/  
-Por que importa: demonstra governança by design.
+Porque é relevante: governação by design em produto de dados.
 
 ---
 
@@ -82,7 +82,7 @@ Repositório: https://github.com/samuelmaia-analytics/amazon-sales-analysis
 ---
 
 ### 6) Data Senior Analytics  
-**Subtítulo:** App analítico orientado à decisão com pipeline curado e leitura executiva.
+**Subtítulo:** Aplicação analítica orientada à decisão com pipeline curado e leitura executiva.
 
 Repositório: https://github.com/samuelmaia-analytics/data-senior-analytics  
 Demo: https://data-analytics-sr.streamlit.app
@@ -90,7 +90,7 @@ Demo: https://data-analytics-sr.streamlit.app
 ---
 
 ### 7) Analise Vendas Python  
-**Subtítulo:** Plataforma de analytics de vendas com execução batch reproduzível e KPIs acionáveis.
+**Subtítulo:** Plataforma de analytics de vendas com execução batch reproduzível e KPI acionáveis.
 
 Repositório: https://github.com/samuelmaia-analytics/analise-vendas-python
 
@@ -111,20 +111,20 @@ Python, SQL, Pandas, NumPy, PySpark, DuckDB, SQLite, Streamlit, Power BI, Plotly
 
 [⬆ Voltar ao topo](#top)
 
-## Governança, qualidade e confiança
+## Governação, qualidade e confiança
 
-- Validação de qualidade e controle de reprodutibilidade
-- Testes automatizados e CI para confiabilidade
-- Rastreabilidade por artefatos, manifests e caminhos de execução documentados
+- Validação de qualidade e controlo de reprodutibilidade
+- Testes automatizados e CI para fiabilidade
+- Rastreabilidade por artefactos, manifests e caminhos de execução documentados
 - Documentação como parte do padrão de entrega
 
 [⬆ Voltar ao topo](#top)
 
 ## Privacidade e consciência LGPD
 
-Aplico práticas de privacidade com minimização de dados, exposição controlada e limites de governança documentados.
+Aplico práticas de privacidade com minimização de dados, exposição controlada e limites de governação documentados.
 
-LGPD é tratada como componente de qualidade e confiança do produto de dados.
+A LGPD é tratada como parte da qualidade e confiança do produto de dados.
 
 [⬆ Voltar ao topo](#top)
 
@@ -132,7 +132,7 @@ LGPD é tratada como componente de qualidade e confiança do produto de dados.
 
 Estruturo entregas analíticas com lint, testes, CI/CD, versionamento e runbooks operacionais.
 
-Objetivo: entrega previsível, manutenção viável e consumo confiável pelo negócio.
+Objetivo: entrega previsível, manutenção viável e consumo fiável pelo negócio.
 
 [⬆ Voltar ao topo](#top)
 
@@ -140,7 +140,7 @@ Objetivo: entrega previsível, manutenção viável e consumo confiável pelo ne
 
 Foco atual:
 - Analytics Engineering e BI orientado à decisão
-- Entrega analítica com governança e qualidade
+- Entrega analítica com governação e qualidade
 - Upskilling prático em cloud para workflows de produção
 
 Disponibilidade:
@@ -153,19 +153,19 @@ Disponibilidade:
 
 [⬆ Voltar ao topo](#top)
 
-## Formação e aprendizado atual
+## Formação e aprendizagem atual
 
 - Desenvolvimento contínuo em engenharia analítica e analytics para negócio
-- AWS Cloud Practitioner (em andamento), conclusão prevista para **junho de 2026**
-- Aprendizado cloud voltado a infraestrutura, segurança e entrega analítica em ambiente real
+- AWS Cloud Practitioner (em curso), conclusão prevista para **junho de 2026**
+- Aprendizagem cloud orientada a infraestrutura, segurança e entrega analítica em contexto real
 
 [⬆ Voltar ao topo](#top)
 
-## Contato / oportunidades
+## Contacto / oportunidades
 
 GitHub: https://github.com/samuelmaia-analytics  
 LinkedIn: https://www.linkedin.com/in/samuelmaia-analytics
 
-Se você está contratando para Análise de Dados, Analytics Engineering, BI ou produtos de dados orientados ao negócio, estou aberto para conversar.
+Se estiver a recrutar para Análise de Dados, Analytics Engineering, BI ou produtos de dados orientados ao negócio, estou disponível para conversar.
 
 [⬆ Voltar ao topo](#top)
