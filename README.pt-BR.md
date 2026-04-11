@@ -6,13 +6,11 @@
 
 Profissional de dados com 10+ anos de experiência na entrega de produtos analíticos orientados ao negócio em Análise de Dados, Analytics Engineering, BI e dashboards executivos.
 
-Baseado em Fortaleza, Brasil. Aberto a trabalho remoto, oportunidades CLT, contratos PJ, posições full-time, contratos de longo prazo, consultoria, freelance e advisory estratégico.
+Baseado em Fortaleza, Brasil. Aberto a trabalho remoto, CLT, PJ, full-time, consultoria e advisory estratégico.
 
 ## Sobre
 
-Transformo dados brutos em ativos confiáveis para decisão, com entrega analítica de ponta a ponta.
-
-Meu escopo inclui ingestão, ETL/ELT, modelagem analítica, desenho de KPIs, dashboards, qualidade de dados, testes, governança e documentação técnica.
+Transformo dados brutos em ativos confiáveis para decisão com entrega analítica de ponta a ponta: ingestão, ETL/ELT, modelagem analítica, desenho de KPIs, dashboards, qualidade de dados, testes, governança e documentação técnica.
 
 [⬆ Voltar ao topo](#top)
 
@@ -116,7 +114,6 @@ Python, SQL, Pandas, NumPy, PySpark, DuckDB, SQLite, Streamlit, Power BI, Plotly
 - Validação de qualidade e controle de reprodutibilidade
 - Testes automatizados e CI para confiabilidade
 - Rastreabilidade por artefatos, manifests e caminhos de execução documentados
-- Documentação como parte do padrão de entrega
 
 [⬆ Voltar ao topo](#top)
 
@@ -130,9 +127,7 @@ LGPD é tratada como componente de qualidade e confiança do produto de dados.
 
 ## Entrega, automação e CI/CD
 
-Estruturo entregas analíticas com lint, testes, CI/CD, versionamento e runbooks operacionais.
-
-Objetivo: entrega previsível, manutenção viável e consumo confiável pelo negócio.
+Estruturo entregas analíticas com lint, testes, CI/CD, versionamento e runbooks operacionais para garantir entrega previsível e consumo confiável pelo negócio.
 
 [⬆ Voltar ao topo](#top)
 
@@ -157,7 +152,7 @@ Disponibilidade:
 
 - Desenvolvimento contínuo em engenharia analítica e analytics para negócio
 - AWS Cloud Practitioner (em andamento), conclusão prevista para **junho de 2026**
-- Aprendizado cloud voltado a infraestrutura, segurança e entrega analítica em ambiente real
+- Upskilling cloud voltado a infraestrutura, segurança e entrega analítica em ambiente real
 
 [⬆ Voltar ao topo](#top)
 
